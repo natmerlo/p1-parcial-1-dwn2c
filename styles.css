@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("img/fondo_discos.png");
+    background-image: url("fondo_discos.png");
     background-color: rgb(22, 6, 68);
     background-repeat: no-repeat;
     background-size: cover;
