@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("img/fondo_discos.png");
+    background-color: rgb(22, 6, 68);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body > div{
+    padding: 20px 80px;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+div .subtitulo{
+    margin-top: -1rem;
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+}
+
+button{
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+button:hover{
+    background-color :#B5AE5B;
+    cursor: pointer;
+}
+
+.datos{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+
+.datos ul{
+    padding: 30px 80px;
+    list-style: none;
+}
+
+.datos ul li{
+    font-style: italic;
+    padding: 0.1rem;
+}
+
+.datos ul li a{
+    color: white;
+}
+
+.datos ul li a:hover{
+    color: #B5AE5B;
+}
+
+.datos ul li:first-child{
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*Contenido dinámico*/
+
+.destacar{
+    color: #ED6C6D;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #B5AE5B;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.cantidadDiscos{
+    color: #B5AE5B;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+    margin: 5px 0px;
+    font-size: 1rem;
+}
+
+.pistaDatos{
+    margin: 5px 0px;
+    font-size: 1rem;
+}
+
+.margin-b{
+    margin-bottom: 20px;
+}
+
+.margin-t{
+    margin-top: 20px;
+}
+
